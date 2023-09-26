@@ -1,0 +1,25 @@
+.center {
+  text-align: center
+}
+
+body {
+  background-image: url('https://www.rapturecamps.com/wp-content/uploads/2018/09/surfcamp-costa-rica-1024x702.jpg.webp');
+  background-image: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: "Felix Titling", sans-serif;
+  color: black;
+}
+
+h2 {
+  font-family: "Californian FB", sans-serif;
+  color: black;
+}
+
+img {
+  float:left;
+  margin-right: 10px;
+}
