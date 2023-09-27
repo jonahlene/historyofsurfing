@@ -11,15 +11,60 @@ body {
 
 h1 {
   font-family: "Felix Titling", sans-serif;
-  color: black;
+  color: Black;
 }
 
 h2 {
   font-family: "Californian FB", sans-serif;
-  color: black;
+  color: Black;
+}
+
+p {
+  font-family: "Arial Black", sans-serif;
+  color: darkorchid;
 }
 
 img {
   float:left;
   margin-right: 10px;
 }
+
+.container {
+  position: relative;
+  text-align: center;
+  color: darkolivegreen;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.profile {
+  float: left;
+  margin-right: 20px;
+}
+
+.profile img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
