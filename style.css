@@ -1,58 +1,68 @@
 .center {
-  text-align: center
+  text-align: center;
 }
 
 body {
   background-image: url('https://www.rapturecamps.com/wp-content/uploads/2018/09/surfcamp-costa-rica-1024x702.jpg.webp');
-  background-image: no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   font-family: "Felix Titling", sans-serif;
-  color: Black;
+  color: black;
+  text-align: center;
 }
 
 h2 {
   font-family: "Californian FB", sans-serif;
-  color: Black;
+  color: black;
+  text-align: center;
 }
 
 p {
   font-family: "Arial Black", sans-serif;
-  color: darkorchid;
-}
-
-img {
-  float:left;
-  margin-right: 10px;
+  color: black;
 }
 
 .container {
-  position: relative;
   text-align: center;
   color: darkolivegreen;
 }
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.profiles-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .profile {
-  float: left;
-  margin-right: 20px;
+  position: relative;
+  margin: 10px;
+  text-align: center;
 }
 
 .profile img {
   width: 200px;
   height: auto;
   display: block;
-  margin-bottom: 10px;
 }
+
+.centered {
+  color: honeydew;
+  padding: 5px 10px;
+  position: absolute;
+  bottom: 10px; /* Adjust this value to position the text as desired */
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  text-align: center;
+}
+
 
 
 
